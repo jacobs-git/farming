@@ -4,6 +4,6 @@ pages_build_output_dir = "dist"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "garden_planner"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_name = "farming"
+database_id = "bdaad09e-e5cb-4951-94fe-f5f8871ea7ff"
 migrations_dir = "db/migrations"
