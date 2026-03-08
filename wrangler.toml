@@ -1,9 +1,10 @@
 name = "garden-planner"
+account_id = "37854abf5dc271ca9909d2c616d43c17"
 compatibility_date = "2026-03-08"
 pages_build_output_dir = "dist"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "farming"
-database_id = "bdaad09e-e5cb-4951-94fe-f5f8871ea7ff"
+database_id = "f5184a13-6aa6-43fb-a5ba-721fe59829a9"
 migrations_dir = "db/migrations"
