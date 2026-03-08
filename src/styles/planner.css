@@ -1,0 +1,34 @@
+.planner-block-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.planner-surface {
+  background:
+    linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),
+    repeating-linear-gradient(
+      45deg,
+      rgba(212, 188, 138, 0.12) 0,
+      rgba(212, 188, 138, 0.12) 2px,
+      transparent 2px,
+      transparent 10px
+    ),
+    #faf3e0;
+}
+
+.soil-bed {
+  box-shadow:
+    inset 0 2px 7px rgba(255, 255, 255, 0.12),
+    inset 0 -4px 9px rgba(0, 0, 0, 0.2),
+    0 2px 5px rgba(44, 31, 14, 0.15);
+}
+
+.selected-outline {
+  border: 2px dashed var(--terracotta);
+  box-shadow: 0 0 0 3px rgba(194, 104, 58, 0.2);
+}
+
+.mono-meta {
+  font-family: "DM Mono", ui-monospace, SFMono-Regular, monospace;
+}

@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --parchment: #f5edd6;
+  --linen: #ede0c4;
+  --loam: #8b5e3c;
+  --earth: #5c3d1e;
+  --sage: #6b8f5e;
+  --forest: #4a6741;
+  --cream: #faf3e0;
+  --straw: #c9a96e;
+  --ink: #2c1f0e;
+  --dust: #8a7560;
+  --terracotta: #c2683a;
+  --sprout: #7db87a;
+  --panel-border: #d4bc8a;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 18% 22%, rgba(255, 255, 255, 0.33) 0, transparent 40%),
+    radial-gradient(circle at 85% 78%, rgba(255, 255, 255, 0.22) 0, transparent 30%),
+    var(--parchment);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.homestead-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.homestead-scrollbar::-webkit-scrollbar-thumb {
+  background: #c7ae81;
+  border-radius: 999px;
+}
+
+.homestead-scrollbar::-webkit-scrollbar-track {
+  background: #efe3cb;
+}
